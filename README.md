@@ -12,3 +12,5 @@ in a browser via a Javascript hook.
 ```
 
 This is a POC for my notebookjs [pull request](https://github.com/jsvine/notebookjs/pull/15).
+
+You can also see more results at [my site](https://keystrokecountdown.com) -- see [Testing IPython](https://keystrokecountdown.com/articles/Testing%20IPython/testing-ipython.html)
