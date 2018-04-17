@@ -1,0 +1,92 @@
+.nb-notebook {
+    // line-height: 1.5;    
+}
+
+.nb-stdout, .nb-stderr {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    white-space: pre-wrap;
+}
+
+.nb-stderr {
+    background-color: #FAA;
+}
+
+.nb-cell + .nb-cell {
+    margin-top: 0.5em;
+}
+
+.nb-output table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.nb-output th {
+    font-weight: bold;
+}
+
+.nb-output th, .nb-output td {
+    border: 1px solid #000;
+    padding: 0.25em;    
+    text-align: left;
+    // border-collapse: collapse;
+}
+
+.nb-cell {
+    position: relative;    
+}
+
+.nb-raw-cell {
+    white-space: pre-wrap;
+    background-color: #f5f2f0;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    padding: 1em;
+    margin: .5em 0;
+}
+
+.nb-output {
+    // min-height: 1em;    
+    // width: 100%;
+    // overflow-x: scroll;
+    // border-right: 1px dotted #CCC;
+}
+
+.nb-text-output {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    white-space: pre-wrap;
+}
+
+.nb-output img {
+    // max-width: 100%;
+    // margin: 2.0em 0em 2.0em;
+}
+
+.nb-output:before, .nb-input:before {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    position: absolute;    
+    color: #999;
+    left: -7.5em;
+    margin-top: 10px;
+    width: 7em;
+    text-align: right;
+}
+
+.nb-input:before {
+    content: "In [" attr(data-prompt-number) "]:";
+}
+
+.nb-output:before {
+    content: "Out [" attr(data-prompt-number) "]:";
+}
+
+.nb-output[image]:before {
+    content: none;
+}
+
+.nb-image-output {
+    padding: 0 !important;
+}
+
+// Fix pandas dataframe formatting
+// div[style="max-height:1000px;max-width:1500px;overflow:auto;"] {
+//     max-height: none !important;    
+// }

@@ -1,0 +1,16 @@
+{
+    "name": "notebookjs-demo",
+    "version": "0.0.0",
+    "description": "Demo of Prism highlighting for static site.",
+    "private": false,
+    "author": {
+        "name": "Brad Howes",
+        "url": "http://keystrokecountdown.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "notebookjs": "~0.3.0",
+        "notebookjs-katex": "^1.x",
+        "prismjs": "~1.12.2"
+    }
+}
