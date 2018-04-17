@@ -1,6 +1,6 @@
 # Demo
 
-The script `demo.js` shows how to add a customer Prism highlighter to `notebookjs` instance so that the
+The script `demo.js` shows how to add a customer Prism highlighter to a `notebookjs` instance so that the
 resulting HTML will have colorized text. This is in contrast to the normal usage where the coloring takes place
 in a browser via a Javascript hook.
 
@@ -10,3 +10,5 @@ in a browser via a Javascript hook.
 % node demo.js
 % open sample.html
 ```
+
+This is a POC for my notebookjs [pull request](https://github.com/jsvine/notebookjs/pull/15).
